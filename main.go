@@ -110,6 +110,8 @@ func main() {
 	goHandler.Execute()
 }
 
+dsadasas
+
 func checkArgs(_ *corev2.Event) error {
 	// Support deprecated environment variables
 	if webhook := os.Getenv("SENSU_SLACK_WEBHOOK_URL"); webhook != "" {
